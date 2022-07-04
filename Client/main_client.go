@@ -13,16 +13,17 @@ import (
 	"github.com/gogf/gf/os/glog"
 	"github.com/gogf/gf/v2/net/gtcp"
 	"github.com/gogf/gf/v2/net/gudp"
+	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/os/gtimer"
 )
 
 func main() {
-	// var (
-	// 	ctx = gctx.New()
-	// )
-	// TcpClient(ctx)
+	var (
+		ctx = gctx.New()
+	)
+	TcpClient(ctx)
 
-	UdpClient()
+	//UdpClient()
 
 }
 
